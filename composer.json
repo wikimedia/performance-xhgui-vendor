@@ -1,0 +1,26 @@
+{
+	"config": {
+		"classmap-authoritative": true,
+		"optimize-autoloader": true,
+		"prepend-autoloader": false,
+		"vendor-dir": ".",
+		"sort-packages": true,
+		"platform": {
+			"php": "7.3"
+		}
+	},
+	"prefer-stable": true,
+	"require": {
+        "slim/slim": "2.6.3",
+        "slim/views": "0.1.3",
+        "twig/twig": "1.44.7",
+        "pimple/pimple": "1.0.2",
+        "perftools/xhgui-collector": "1.8.1"
+	},
+	"require-dev": {
+		"php-parallel-lint/php-parallel-lint": "1.3.2"
+	},
+	"scripts": {
+		"test": "parallel-lint --exclude composer/autoload_static.php ."
+	}
+}
