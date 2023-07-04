@@ -34,8 +34,9 @@ to make it easy to perform code review on upstream changes.
    You can automate editing of composer.json via
    `composer-wmf require <package> <version> --no-update`.
    This way automatically keeps the composer.json file sorted.
-3. Run `composer-wmf update --no-dev` to download new files,
-   and rebuild the autoloader.
+3. From the parent directory, where the xhgui repo is checked out,
+   run `composer-wmf -d vendor/ update --no-dev`.
+   This will download new files and rebuild the autoloader.
 4. Stage and commit changes as a Gerrit patch.
 5. Review and merge changes.
 6. Update the submodule `operations/software/xhgui@wmf_deploy`.

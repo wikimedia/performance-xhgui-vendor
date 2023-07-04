@@ -1,8 +1,8 @@
 {
 	"config": {
-		"classmap-authoritative": true,
-		"optimize-autoloader": true,
-		"prepend-autoloader": false,
+		"classmap-authoritative": false,
+		"optimize-autoloader": false,
+		"prepend-autoloader": true,
 		"vendor-dir": ".",
 		"sort-packages": true,
 		"platform": {
@@ -10,6 +10,11 @@
 		}
 	},
 	"prefer-stable": true,
+	"autoload": {
+		"psr-0": {
+			"Xhgui_": "../src/"
+		}
+	},
 	"require": {
         "slim/slim": "2.6.3",
         "slim/views": "0.1.3",
