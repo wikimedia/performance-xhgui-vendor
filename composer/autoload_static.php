@@ -20,6 +20,10 @@ class ComposerStaticInit82b91e931d76187bc3144b2978c1a2d0
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Slim\\Views\\' => 11,
         ),
+        'P' => 
+        array (
+            'Psr\\Container\\' => 14,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -35,6 +39,10 @@ class ComposerStaticInit82b91e931d76187bc3144b2978c1a2d0
         array (
             0 => __DIR__ . '/..' . '/slim/views',
         ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -43,7 +51,6 @@ class ComposerStaticInit82b91e931d76187bc3144b2978c1a2d0
             'Xhgui_' => 
             array (
                 0 => __DIR__ . '/..' . '/../src',
-                1 => __DIR__ . '/..' . '/perftools/xhgui-collector/src',
             ),
         ),
         'T' => 
@@ -64,7 +71,7 @@ class ComposerStaticInit82b91e931d76187bc3144b2978c1a2d0
         array (
             'Pimple' => 
             array (
-                0 => __DIR__ . '/..' . '/pimple/pimple/lib',
+                0 => __DIR__ . '/..' . '/pimple/pimple/src',
             ),
         ),
     );

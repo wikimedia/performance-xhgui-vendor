@@ -6,8 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = $vendorDir;
 
 return array(
-    'Xhgui_' => array($baseDir . '/../src', $vendorDir . '/perftools/xhgui-collector/src'),
+    'Xhgui_' => array($baseDir . '/../src'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Slim' => array($vendorDir . '/slim/slim'),
-    'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
+    'Pimple' => array($vendorDir . '/pimple/pimple/src'),
 );

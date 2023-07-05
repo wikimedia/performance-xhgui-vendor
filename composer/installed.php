@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '230b45eb8e41522578894ffad604aa7b102c7ea1',
         'type' => 'library',
         'install_path' => __DIR__ . '/../',
         'aliases' => array(),
@@ -11,38 +11,35 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '230b45eb8e41522578894ffad604aa7b102c7ea1',
             'type' => 'library',
             'install_path' => __DIR__ . '/../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'paragonie/random_compat' => array(
-            'pretty_version' => 'v9.99.100',
-            'version' => '9.99.100.0',
-            'reference' => '996434e5492cb4c3edcb9168db6fbb1359ef965a',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../paragonie/random_compat',
-            'aliases' => array(),
+        'alcaeus/mongo-php-adapter' => array(
             'dev_requirement' => false,
-        ),
-        'perftools/xhgui-collector' => array(
-            'pretty_version' => '1.8.1',
-            'version' => '1.8.1.0',
-            'reference' => '582146bea0ea37fb46e48a4f60c20875e97e36cf',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../perftools/xhgui-collector',
-            'aliases' => array(),
-            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
         ),
         'pimple/pimple' => array(
-            'pretty_version' => 'v1.0.2',
-            'version' => '1.0.2.0',
-            'reference' => 'ae11e57e8c2bb414b2ff93396dbbfc0eb92feb94',
+            'pretty_version' => 'v3.5.0',
+            'version' => '3.5.0.0',
+            'reference' => 'a94b3a4db7fb774b3d78dad2315ddc07629e1bed',
             'type' => 'library',
             'install_path' => __DIR__ . '/../pimple/pimple',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/container' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'reference' => 'c71ecc56dfe541dbd90c5360474fbc405f8d5963',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/container',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -72,6 +69,12 @@
             'install_path' => __DIR__ . '/../symfony/polyfill-ctype',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'symfony/polyfill-php73' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '*',
+            ),
         ),
         'twig/twig' => array(
             'pretty_version' => 'v1.44.7',
