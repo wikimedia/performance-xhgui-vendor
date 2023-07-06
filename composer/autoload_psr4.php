@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = $vendorDir;
 
 return array(
+    'XHGui\\' => array($baseDir . '/../src/Xhgui'),
     'Twig\\' => array($vendorDir . '/twig/twig/src'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Slim\\Views\\' => array($vendorDir . '/slim/views'),

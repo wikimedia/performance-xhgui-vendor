@@ -12,8 +12,8 @@
 	},
 	"prefer-stable": true,
 	"autoload": {
-		"psr-0": {
-			"Xhgui_": "../src/"
+		"psr-4": {
+			"XHGui\\": "../src/Xhgui/"
 		}
 	},
 	"require": {

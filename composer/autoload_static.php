@@ -11,6 +11,10 @@ class ComposerStaticInit82b91e931d76187bc3144b2978c1a2d0
     );
 
     public static $prefixLengthsPsr4 = array (
+        'X' => 
+        array (
+            'XHGui\\' => 6,
+        ),
         'T' => 
         array (
             'Twig\\' => 5,
@@ -27,6 +31,10 @@ class ComposerStaticInit82b91e931d76187bc3144b2978c1a2d0
     );
 
     public static $prefixDirsPsr4 = array (
+        'XHGui\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/../src/Xhgui',
+        ),
         'Twig\\' => 
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
@@ -46,13 +54,6 @@ class ComposerStaticInit82b91e931d76187bc3144b2978c1a2d0
     );
 
     public static $prefixesPsr0 = array (
-        'X' => 
-        array (
-            'Xhgui_' => 
-            array (
-                0 => __DIR__ . '/..' . '/../src',
-            ),
-        ),
         'T' => 
         array (
             'Twig_' => 

@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '230b45eb8e41522578894ffad604aa7b102c7ea1',
+        'reference' => '2ae41bcaa7dcb57023bf8c97daebf2ec825fe380',
         'type' => 'library',
         'install_path' => __DIR__ . '/../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '230b45eb8e41522578894ffad604aa7b102c7ea1',
+            'reference' => '2ae41bcaa7dcb57023bf8c97daebf2ec825fe380',
             'type' => 'library',
             'install_path' => __DIR__ . '/../',
             'aliases' => array(),
@@ -69,12 +69,6 @@
             'install_path' => __DIR__ . '/../symfony/polyfill-ctype',
             'aliases' => array(),
             'dev_requirement' => false,
-        ),
-        'symfony/polyfill-php73' => array(
-            'dev_requirement' => false,
-            'provided' => array(
-                0 => '*',
-            ),
         ),
         'twig/twig' => array(
             'pretty_version' => 'v1.44.7',
